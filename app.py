@@ -28,7 +28,7 @@ iface = gr.Interface(
         gr.inputs.Textbox(label="Target Language (e.g., Hindi)")
     ],
     outputs=gr.outputs.Textbox(label="Translated Text"),
-    title="Language Translation Chatbot",
+    title="Language Translation Tool",
     description="Translate text from one language to another using OpenAI.",
 )
 
