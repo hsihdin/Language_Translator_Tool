@@ -1,7 +1,10 @@
 import gradio as gr
 import openai
+import os
 
-api_key = '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'
+
+SECRET_TOKEN = os.getenv("SECRET_TOKEN")
+
 
 def translate_text(text, source_lang, target_lang):
     if api_key is not None:
