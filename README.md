@@ -11,7 +11,7 @@ git clone https://github.com/your-username/language-translation-tool.git
 Install the required dependencies. You can use pip to install the necessary packages:
 
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 Set up your OpenAI API key:
 
 If you don't have an OpenAI API key, sign up at OpenAI to obtain one.
@@ -19,7 +19,7 @@ Add your API key to an environment variable named SECRET_TOKEN.
 Run the application:
 
 
-python app.py
+```python app.py```
 Access the translation tool by opening a web browser and navigating to http://localhost:7860.
 
 Usage
@@ -29,11 +29,11 @@ Click the "Translate" button to see the translated text.
 Example
 Here's an example of how the translation tool works:
 
-Input Text: "Hello, how are you?"
+```Input Text: "Hello, how are you?"
 Source Language: "English"
-Target Language: "Spanish"
+Target Language: "Spanish"```
 
-Translated Text: "Hola, ¿cómo estás?"
+```Translated Text: "Hola, ¿cómo estás?"```
 
 Notes
 This tool utilizes OpenAI's GPT-3 engine (text-davinci-003) for translation.
