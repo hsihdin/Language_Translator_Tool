@@ -3,7 +3,7 @@ import openai
 import os
 
 
-SECRET_TOKEN = os.getenv("SECRET_TOKEN")
+api_key = os.getenv("SECRET_TOKEN")
 
 
 def translate_text(text, source_lang, target_lang):
